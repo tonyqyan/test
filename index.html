@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" version="<%- version %>">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" type="image/x-icon" href="/images/ico.ico">
+    <title></title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: #F1FAF8;
+      }
+      body {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .topImg {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 110px;
+        background-image: url('./images/topbg.webp');
+        background-size: 100% 100%;
+        z-index: 10;
+      }
+      .logoImg {
+        position: relative;
+        z-index: 11;
+        width: 160px;
+        height: 103.6px;
+        background-image: url('./images/logo.webp');
+        background-size: 100% 100%;
+        margin-top: 78px;
+      }
+      .tips {
+        color: #518682;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%; /* 48px */
+        text-transform: capitalize;
+        margin-top: 46px;
+        text-align: center;
+      }
+      .btmImg {
+        width: 218px;
+        height: 132px;
+        background-image: url('./images/btm.webp');
+        background-size: 100% 100%;
+        margin-top: 57px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='topImg'></div>
+    <div class='logoImg'></div>
+    <p class='tips'>Coming Soon！</p>
+    <div class="btmImg"></div>
+  </body>
+</html>
